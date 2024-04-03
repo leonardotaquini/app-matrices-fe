@@ -22,7 +22,7 @@ export const FormMatriz = ({ data }) => {
       return;
     }
     try {
-      const data = await fetch("http://localhost:3000/api/sumarMatricez", {
+      const data = await fetch("https://app-matrices.onrender.com/api/sumarMatricez", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -50,7 +50,7 @@ export const FormMatriz = ({ data }) => {
     }
     try {
       const data = await fetch(
-        "http://localhost:3000/api/multiplicarMatricez",
+        "https://app-matrices.onrender.com/api/multiplicarMatricez",
         {
           method: "POST",
           headers: {
@@ -84,7 +84,7 @@ export const FormMatriz = ({ data }) => {
       return;
     }
     try {
-      const data = await fetch("http://localhost:3000/api/restarMatricez", {
+      const data = await fetch("https://app-matrices.onrender.com/api/restarMatricez", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
